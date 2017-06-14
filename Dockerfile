@@ -9,3 +9,5 @@ RUN apt-get install -y net-tools iputils-ping
 EXPOSE 90 91 92
 
 COPY test.txt /
+
+CMD bash
